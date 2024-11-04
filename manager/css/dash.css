@@ -1,0 +1,131 @@
+.bx1 {
+    background-color: #60c983b0;
+    border-radius: 15px;
+    border: none;
+    border-left: 20px solid #1a970f;
+    color: #000080;
+
+
+}
+
+.bx1:hover {
+    background-color: #000000;
+    box-shadow: 10px 20px 20px 0px #0058b686;
+    margin-bottom: 0.2rem;
+    color: rgb(255, 255, 255);
+}
+
+
+.bx2 {
+    background-color: #607cc9b0;
+    border-radius: 15px;
+    border: none;
+    border-left: 20px solid #0f1d97;
+    color: #000080;
+
+
+}
+
+.bx2:hover {
+    background-color: #000000;
+    box-shadow: 10px 20px 20px 0px #0058b686;
+    margin-bottom: 0.2rem;
+    color: rgb(255, 255, 255);
+}
+
+
+
+.bx3 {
+    background-color: #c2c9608c;
+    border-radius: 15px;
+    border: none;
+    border-left: 20px solid #fffb00;
+    color: #000080;
+
+
+}
+
+.bx3:hover {
+    background-color: #000000;
+    box-shadow: 10px 20px 20px 0px #0058b686;
+    margin-bottom: 0.2rem;
+    color: rgb(255, 255, 255);
+}
+
+
+
+.bx4 {
+    background-color: #8560c9b0;
+    border-radius: 15px;
+    border: none;
+    border-left: 20px solid #6b08db;
+    color: #000080;
+
+
+}
+
+.bx4:hover {
+    background-color: #000000;
+    box-shadow: 10px 20px 20px 0px #0058b686;
+    margin-bottom: 0.2rem;
+    color: rgb(255, 255, 255);
+}
+
+
+/* clock */
+
+.clock {
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.datetime {
+    color: #000080;
+    font-family: "Segoe UI", sans-serif;
+    width: 100%;
+    padding: 15px 10px;
+
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px 2px #c7c7c786;
+}
+
+.datetime:hover {
+    background-color: #000000;
+    box-shadow: 10px 20px 20px 0px #0058b686;
+    color: white;
+}
+
+.date {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.time {
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.time {
+    margin: 0 6px;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.time span:last-child {
+    border: 2px solid #000080;
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 10px;
+    padding: 0 5px;
+    border-radius: 3px;
+}
+
+/* clock */

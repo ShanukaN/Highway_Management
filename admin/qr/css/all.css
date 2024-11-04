@@ -1,0 +1,232 @@
+* {
+  cursor: pointer;
+  transition: 00.2s;
+}
+
+.fm {
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+}
+
+.font {
+  font-weight: 500;
+}
+
+.bx {
+  border-radius: 15px;
+  border: none;
+  border-left: 15px solid #ffee00;
+  color: #000080;
+}
+
+.bx:hover {
+  box-shadow: 10px 20px 20px 0px #0058b686;
+  margin-bottom: 0.2rem;
+}
+
+.bx1 {
+  border-radius: 15px;
+  border: none;
+  border-left: 15px solid #6500a8;
+  color: #000080;
+}
+
+.bx1:hover {
+  box-shadow: 10px 20px 20px 0px #0058b686;
+  margin-bottom: 0.2rem;
+}
+
+.bx2 {
+  border-radius: 15px;
+  border: none;
+  border-left: 15px solid #1ca800;
+  color: #000080;
+}
+
+.bx2:hover {
+  box-shadow: 10px 20px 20px 0px #0058b686;
+  margin-bottom: 0.2rem;
+}
+
+.bx3 {
+  border-radius: 15px;
+  border: none;
+  border-left: 15px solid #006eff;
+  color: #000080;
+}
+
+.bx3:hover {
+  box-shadow: 10px 20px 20px 0px #0058b686;
+  margin-bottom: 0.2rem;
+}
+
+.bx4 {
+  border-radius: 15px;
+  border: none;
+  border-left: 15px solid #ffae00;
+  color: #000080;
+}
+
+.bx4:hover {
+  box-shadow: 10px 20px 20px 0px #0058b686;
+  margin-bottom: 0.2rem;
+}
+
+.dashbtn {
+  border: none;
+  background-color: #000080;
+  color: white;
+  border-radius: 0px 0px 15px 0px;
+  width: 100%;
+}
+
+/* clock */
+
+.clock {
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.datetime {
+  color: #000080;
+  font-family: "Segoe UI", sans-serif;
+  width: 100%;
+  padding: 15px 10px;
+
+  border-radius: 15px;
+  box-shadow: 2px 2px 2px 2px #c7c7c786;
+}
+
+.datetime:hover {
+  box-shadow: 10px 20px 20px 0px #0058b686;
+}
+
+.date {
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 3px;
+}
+
+.time {
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.time {
+  margin: 0 6px;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 3px;
+}
+
+.time span:last-child {
+  border: 2px solid #000080;
+  font-size: 30px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-top: 10px;
+  padding: 0 5px;
+  border-radius: 3px;
+}
+
+/* clock */
+
+.rp {
+  border-radius: 15px;
+  background-color: #018abe;
+}
+
+.rph1 {
+  color: white;
+}
+
+.ah {
+  text-align: center;
+}
+
+.d {
+  border: solid black;
+  margin-top: 40px;
+}
+
+.btnn {
+  color: white;
+  background-color: #0079a8;
+  border: none;
+  border-radius: 0px 0px 15px 15px;
+  width: 100%;
+}
+
+.btnn:hover {
+  color: white;
+  background-color: #0079a8;
+  border: none;
+  border-radius: 0px 0px 15px 15px;
+  width: 100%;
+}
+
+.small-box-footer {
+  border-radius: 0px 0px 15px 15px;
+}
+
+.btn {
+  border-radius: 7px;
+  border: none;
+  background-color: #000080;
+}
+
+.he {
+  background-color: rgb(206, 206, 255);
+}
+
+.navba {
+  background-color: #000080;
+}
+
+.btn:hover {
+  box-shadow: 5px 5px 20px 0px #0058b686;
+  background-color: #0000bd;
+}
+
+.i {
+  color: white;
+}
+
+.nav-link {
+  padding-left: 30px;
+  transition: 00.2s;
+  cursor: pointer;
+}
+
+.nav-link:hover {
+  background-color: #0000a7;
+  border-radius: 25px;
+  box-shadow: 10px 20px 20px 0px #000052;
+  letter-spacing: 0.1rem;
+}
+
+@media (max-width: 1024px) {
+  .bxf {
+    color: #000052;
+    padding: 0%;
+  }
+}
+
+@media (max-width: 768px) {
+  .bxf {
+    color: #000052;
+    padding-left: 35%;
+  }
+}
+
+@media (max-width: 425px) {
+  .bxf {
+    color: #000052;
+    padding-left: 10%;
+  }
+}
